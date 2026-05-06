@@ -1,0 +1,45 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dxirLogoTitle dxirLogoDesc">
+  <title id="dxirLogoTitle">DXIR Company Logo</title>
+  <desc id="dxirLogoDesc">A custom geometric DXIR logo with a spark emblem and gradient wordmark on a transparent background.</desc>
+
+  <defs>
+    <linearGradient id="inkNavy" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1C3E"/>
+      <stop offset="100%" stop-color="#11356D"/>
+    </linearGradient>
+    <linearGradient id="inkPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9B5BFF"/>
+      <stop offset="100%" stop-color="#5B1FD6"/>
+    </linearGradient>
+    <linearGradient id="inkMix" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1C3E"/>
+      <stop offset="50%" stop-color="#163D78"/>
+      <stop offset="100%" stop-color="#8A4CFF"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g transform="translate(40 40)" filter="url(#softGlow)">
+    <path d="M75 80 L95 120 L135 140 L95 160 L75 200 L55 160 L15 140 L55 120 Z" fill="url(#inkPurple)"/>
+  </g>
+
+  <g transform="translate(170 42)">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M0 32H130C203 32 246 72 246 118C246 164 203 204 130 204H0V167H121C169 167 195 146 195 118C195 90 169 69 121 69H0V32ZM37 69V167H0V69H37Z" fill="url(#inkNavy)"/>
+
+    <path d="M264 32H314L372 101L431 32H481L397 118L481 204H431L372 135L314 204H264L347 118L264 32Z" fill="url(#inkPurple)"/>
+
+    <path d="M500 32H550L608 101L667 32H717L633 118L717 204H667L608 135L550 204H500L583 118L500 32Z" fill="url(#inkNavy)"/>
+
+    <path d="M747 32H789V204H747V32ZM777 0C792 0 803 10 803 24C803 38 792 48 777 48C762 48 751 38 751 24C751 10 762 0 777 0Z" fill="url(#inkMix)"/>
+
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M829 32H958C1029 32 1071 71 1071 114C1071 146 1049 172 1009 185L1076 204H1018L954 186H866V204H829V32ZM866 69V149H952C996 149 1021 134 1021 109C1021 85 996 69 952 69H866Z" fill="url(#inkNavy)"/>
+
+    <path d="M963 148L1069 204H998L930 167L963 148Z" fill="url(#inkNavy)"/>
+  </g>
+</svg>
